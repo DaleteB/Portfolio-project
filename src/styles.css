@@ -1,20 +1,18 @@
 :root {
   --heading-font-family: "Lora", serif;
   --default-font-family: "Ubuntu", sans-serif;
-  --button-color: #77cbf5;
-  --background-color: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-}
+  }
 
 body {
   font-family: var(--default-font-family);
 }
 
 .hero {
-  background: var(--background-color);
+  background: #fff;
   text-align: center;
   padding: 70px 20px;
 }
-@media (max-width: 576px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 56px;
   }
@@ -56,7 +54,7 @@ p {
 
 .btn-branding {
   border-radius: 4px;
-  background-color: var(--button-color);
+  background-color: black;
   opacity: 0.8;
   color: #fff;
   font-size: 18px;
@@ -65,7 +63,8 @@ p {
 }
 
 .avatar {
-  border-radius: 50%;
+  border: 5px solid ;
+  border-radius: 10px;
   height: 240px;
   width: 175px;
 }
