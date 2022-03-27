@@ -1,7 +1,7 @@
 :root {
   --heading-font-family: "Lora", serif;
   --default-font-family: "Ubuntu", sans-serif;
-  }
+}
 
 body {
   font-family: var(--default-font-family);
@@ -12,15 +12,20 @@ body {
   text-align: center;
   padding: 70px 20px;
 }
-@media (max-width: 900px) {
-  h1 {
-    font-size: 56px;
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 48px;
   }
   h2 {
     font-size: 20px;
   }
-  p {
-    font-size: 20px;
+  h1,
+  h2 {
+    text-align: center;
+  }
+  .avatar {
+    display: block;
+    text-align: center;
   }
 }
 h1,
@@ -63,7 +68,7 @@ p {
 }
 
 .avatar {
-  border: 5px solid ;
+  border: 5px solid;
   border-radius: 10px;
   height: 240px;
   width: 175px;
