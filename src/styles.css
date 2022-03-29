@@ -13,16 +13,22 @@ body {
   }
   h2 {
     font-size: 20px;
+    line-height: 1;
   }
+
   h1,
   h2 {
     text-align: center;
     
   }
-
   .avatar {
     display: none;
   }
+
+  .introduction{
+    display: none;
+  }
+
   .img-portfolio {
     display: none;
   }
@@ -33,19 +39,20 @@ body {
     margin: 0 20px;
     padding: 20px 30px;
   }
-
+  
   .projects h2 {
     font-size: 45px;
   }
   .projects p {
     font-size: 18px;
-    opacity: 0.8;
+    
   }
   .about-hero {
     text-align: center;
     padding: 0;
   }
 }
+
 h1,
 h2,
 h3,
@@ -58,6 +65,7 @@ h6 {
 }
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 .hero {
@@ -69,8 +77,9 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 24px;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
 }
+
 .projects h2 {
   font-family: var(--heading-font-family);
   font-size: 36px;
@@ -84,6 +93,7 @@ p {
   font-size: 24px;
   font-weight: normal;
   margin: 0;
+  opacity: 0.8;
 }
 
 .btn-branding {
@@ -116,6 +126,8 @@ p {
 
 .img-portfolio {
   border-radius: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 .about-hero h1 {
