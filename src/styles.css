@@ -125,6 +125,11 @@ p {
   width: 175px;
 }
 
+.col-md-6 img{
+background: #fff8f581;
+height: auto;
+}
+
 .button-link {
   border-radius: 4px;
   padding: 20px 30px;
