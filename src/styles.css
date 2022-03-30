@@ -8,13 +8,10 @@ body {
 }
 
 @media (max-width: 576px) {
-  .hero h1 {
+  .hero, .content h1 {
     font-size: 48px;
   }
-  .content h1{
-    font-size: 48px;
-  }
-  h2 {
+    h2 {
     font-size: 20px;
     line-height: 1;
   }
@@ -22,13 +19,12 @@ body {
   h1,
   h2 {
     text-align: center;
-    
   }
   .avatar {
     display: none;
   }
 
-  .introduction{
+  .introduction {
     display: none;
   }
 
@@ -42,13 +38,12 @@ body {
     margin: 0 20px;
     padding: 20px 30px;
   }
-  
+
   .projects h2 {
     font-size: 45px;
   }
   .projects p {
     font-size: 18px;
-    
   }
   .content-container {
     text-align: center;
@@ -136,23 +131,21 @@ p {
 .content h1 {
   font-size: 58px;
   line-height: 1;
-  
 }
 
-.content h3{
-font-size: 24px;
-line-height: 1.5;
-
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
 }
 
-.content p{
-    font-size: 18px;
+.content p {
+  font-size: 18px;
 }
 
-.content{
+.content {
   text-align: center;
 }
-.content a{
+.content a {
   text-decoration: none;
 }
 
@@ -161,5 +154,3 @@ line-height: 1.5;
   text-align: center;
   padding: 120px 20px;
 }
-
-
