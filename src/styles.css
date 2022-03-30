@@ -142,11 +142,14 @@ line-height: 1.5;
 }
 
 .content p{
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .content{
   text-align: center;
+}
+.content a{
+  text-decoration: none;
 }
 
 .content-container {
