@@ -5,6 +5,11 @@
 
 body {
   font-family: var(--default-font-family);
+  background: radial-gradient(
+    circle at 0% 0.5%,
+    rgb(241, 241, 242) 0.1%,
+    rgb(224, 226, 228) 100.2%
+  );
 }
 
 @media (max-width: 500px) {
@@ -28,7 +33,7 @@ body {
   .avatar {
     display: none;
   }
-  .img-fluid img{
+  .img-fluid img {
     width: 80%;
   }
   .introduction {
@@ -77,7 +82,6 @@ h4 {
 }
 
 .hero {
-  background: #fff;
   text-align: center;
   padding: 70px 20px;
 }
