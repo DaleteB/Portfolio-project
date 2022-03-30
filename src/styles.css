@@ -11,6 +11,9 @@ body {
   .hero h1 {
     font-size: 48px;
   }
+  .content h1{
+    font-size: 48px;
+  }
   h2 {
     font-size: 20px;
     line-height: 1;
@@ -132,6 +135,7 @@ p {
 
 .content h1 {
   font-size: 58px;
+  line-height: 1;
   
 }
 
