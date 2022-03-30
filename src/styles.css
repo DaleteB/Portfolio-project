@@ -7,11 +7,12 @@ body {
   font-family: var(--default-font-family);
 }
 
-@media (max-width: 576px) {
-  .hero, .content h1 {
+@media (max-width: 500px) {
+  .hero,
+  .content h1 {
     font-size: 48px;
   }
-    h2 {
+  h2 {
     font-size: 20px;
     line-height: 1;
   }
@@ -20,6 +21,11 @@ body {
   h2 {
     text-align: center;
   }
+  h4{
+    font-size: 26px;
+  }
+
+  
   .avatar {
     display: none;
   }
@@ -49,6 +55,9 @@ body {
     text-align: center;
     padding: 0;
   }
+  footer .contact-box {
+    padding: 30px;
+  }
 }
 
 h1,
@@ -64,6 +73,9 @@ h6 {
 h1 {
   font-size: 96px;
   line-height: 1.5;
+}
+h4 {
+  font-size: 48px;
 }
 
 .hero {
@@ -153,4 +165,39 @@ p {
   background: #fff;
   text-align: center;
   padding: 120px 20px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: #fff8f581;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .social-links a {
+  text-decoration: none;
+  margin: 0 20px;
+  color: black;
+  padding: 10px 14px;
+  font-size: 18px;
+  background-color: #fff8f581;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #fff;
+  background-color: black;
 }
