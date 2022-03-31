@@ -137,6 +137,15 @@ footer .contact-box {
 footer .contact-box p {
   margin: 0;
 }
+
+footer p{
+  font-size: 15px;
+
+}
+
+footer a{
+  text-decoration: none;
+}
 footer .email-link {
   text-decoration: none;
   color: black;
@@ -187,10 +196,11 @@ footer .social-links a:hover {
     display: block;
     text-align: center;
     width: 100%;
+    margin-bottom: 0;
   }
 
     .certificates {
-    width: 80%;
+    width: 100%;
     display: block;
     text-align: center;
   }
