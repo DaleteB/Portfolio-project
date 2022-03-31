@@ -74,10 +74,15 @@ p {
   width: 175px;
 }
 
+
 .col-md-6 img {
   background: #fff8f581;
   height: auto;
 }
+
+.img-fluid{
+    width: 80%;
+  }
 
 .button-link {
   border-radius: 4px;
@@ -181,7 +186,7 @@ footer .social-links a:hover {
     width: 100%;
   }
 
-  .certificates {
+    .certificates {
     width: 80%;
     display: block;
     text-align: center;
