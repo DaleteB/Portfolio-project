@@ -170,6 +170,7 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 500px) {
+  
   .hero h1 {
     font-size: 48px;
   }
@@ -225,7 +226,7 @@ footer .social-links a:hover {
   .projects p {
     font-size: 18px;
   }
-  .content-container {
+  .content-container, .hero {
     text-align: center;
     padding: 100px 20px;
   }
